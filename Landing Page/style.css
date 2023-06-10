@@ -1,0 +1,219 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/*HEADER*/
+
+header{
+    background-color: #1F2937;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+.links{
+padding-right: 100px;
+padding-top: 20px;
+}
+
+.links a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-right: 40px;
+}
+
+.links a:hover{
+    color: #3882F6;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.title{
+    padding-left: 120px;
+}
+
+.title h1{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.title h4{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.title button{
+    background-color: #3882F6;
+    color: white;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: #3882F6;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.title button:hover{
+    border-color: yellow;
+    border-width: 3px;
+    border-style: solid;
+    color: yellow;
+    cursor: pointer;
+}
+
+.city{
+    padding-right: 120px;
+    padding-top: 40px;
+}
+
+.city img{
+    width: 600px;
+    height: 300px;
+}
+
+/*MAIN*/
+/*ICONOS*/
+
+.data{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.icono img{
+    width: 80px;
+}
+
+.icono p{
+    font-size: 18px;
+}
+
+.icono:hover{
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 10px;
+    transition: 0.5ms;
+}
+
+.data div h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.iconos{
+    display: flex;
+    justify-content: space-around;
+}
+
+#plane{
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+/*SPEACH*/
+
+.speach{
+    background-color: #E5E7EB;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.speach h3{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    padding-top: 50px;
+}
+
+.speach h4{
+    font-size: 28px;
+    padding-bottom: 100px;
+}
+
+/*SING UP BLUE*/
+
+.containerblue{
+    padding-bottom: 100px;
+    padding-top: 80px;
+}
+
+.singup{
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 10px;
+}
+
+.singuptext h4{
+    color: white;
+    font-size: 28px;
+}
+
+.singuptext p{
+    color: #E5E7EB;
+    font-size: 22px;
+}
+
+.singupbtn{
+    padding-top: 60px;
+    padding-left: 140px;
+}
+
+.singupbtn button{
+    width: 140px;
+    height: 40px;
+    font-size: 22px;
+    color: white;
+    background-color: #3882F6;
+    border-color: white;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.singup button:hover{
+    border-color: yellow;
+    color: yellow;
+    cursor: pointer;
+}
+
+/*FOOTER*/
+
+footer{
+    background-color: #1F2937;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer p{
+    color: white;
+    font-size: 22px;
+}
