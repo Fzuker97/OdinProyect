@@ -1,0 +1,81 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: burlywood;
+}
+/* HEADER */
+.header{
+    background-color: brown;
+    
+}
+
+.header h1{
+    text-align: center;
+    font-size: 40px;
+    color: burlywood;
+    font-style: italic;
+}
+/* CHEF IMG */
+.mainimg{
+    display: flex;
+    justify-content: center;
+}
+
+.mainimg img{
+    width: 300px;
+}
+
+/*  LINKS   */
+
+.saladlink{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 20px;
+}
+
+.saladlink button{
+    width: 140px;
+    border-radius: 10px;
+    background-color: brown;
+}
+
+.saladlink button a{
+    text-decoration: none;
+    font-size: 20px;
+    color: burlywood;
+}
+
+/* FOOTER */
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.footer p{
+    font-size: 20px;
+    color: brown;
+    font-style: italic;
+}
+
+/* Other Pages */
+
+.text{
+    display: flex;
+    justify-content: center;
+}
+
+.text h2{
+    color: brown;
+    font-style: italic;
+    text-decoration: underline;
+}
