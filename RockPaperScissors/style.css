@@ -1,0 +1,131 @@
+html{
+    background-color: #172554;
+}
+
+body{
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.speach{
+    background-color: #172554;
+    text-align: center;
+    margin-top: -35px;
+    padding-bottom: 20px;
+}
+
+.speach h1{
+    color: #fbbf24;
+    font-size: 50px;
+    font-family: fantasy;
+       
+}
+
+.speach h2{
+    color: #fde68a;
+    font-size: 30px;
+    font-family: fantasy;
+}
+
+.speach h3{
+    color: #67e8f9;
+    font-size: 30px;
+    font-family: fantasy;
+}
+
+.imgBtn {
+    background-color: #172554;
+}
+
+.imgBtn{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: -10px;
+}
+
+
+.imgBtn button img{
+    width: 200px;
+    height: 200px;
+    background-color: #172554;
+}
+
+.imgBtn button{
+    background-color: #172554;
+    border-style: none;
+    cursor: pointer;
+    color: #fde68a;
+    font-size: 20px;
+    font-family: fantasy;
+    display: flex;
+}
+
+.labels{
+    background-color: #172554;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+.labels span{
+    color: #fbbf24;
+    font-size: 28px;
+    font-family: fantasy;
+}
+
+.scores{
+    background-color: #172554;
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+}
+
+.scores div{
+    border-style: solid;
+    border-color: #fbbf24;
+    width: 200px;
+    height: 100px;
+    color: #fde68a;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#resultsLabel{
+    color: #fbbf24;
+    background-color: #172554;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    font-family: fantasy;
+}
+
+#roundResults{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: #fbbf24;
+    width: 500px;
+    height: 100px;
+    margin-left: 520px;
+    text-align: center;
+    color: #fde68a;
+    font-size: 28px;
+}
+
+#reset{
+    font-size: 28px;
+    background-color: #172554;
+    border-color: #fbbf24;
+    color: #fde68a;
+    border-style: solid;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    margin-left: 700px;
+}
