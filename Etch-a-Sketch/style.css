@@ -1,0 +1,127 @@
+html{
+    background-color: #075985;
+}
+
+*{
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+}
+
+/* TITLE */
+
+.title{
+    padding-top: 20px;
+}
+
+.title h1{
+    font-family: fantasy;
+    font-size: 50px;
+    color: #38bdf8;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.title h3{
+    font-family: fantasy;
+    font-size: 30px;
+    color: #38bdf8;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/* BTN AND SLIDE BARS*/
+.btnContainer{
+    display: flex;
+    padding-bottom: 40px;
+    padding-left: 320px;
+    gap: 20px;
+}
+
+.btnContainer button{
+    width: 300px;
+    background-color: #075985;
+    border-color: #38bdf8;
+    border-width: 5px;
+    border-radius: 10px;
+    color: #38bdf8;
+    font-family: fantasy;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.colorBar{
+    padding-left: 50px;
+}
+
+.colorBar input{
+    width: 200px;
+}
+
+.colorBar p{
+    color: #38bdf8;
+    font-family: fantasy;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sliderAndValue{
+    padding-right: 400px;
+}
+
+.sliderAndValue input{
+    width: 200px;
+}
+
+.sliderAndValue p{
+    color: #38bdf8;
+    font-family: fantasy;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* GRID */
+
+.positionGrid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    gap: 1px;
+    margin-bottom: 100px;
+    background-color: gray;
+    width: 350px;
+  }
+
+  .cell {
+    background-color: lightgray;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+  }
+
+
+
+
+
+  /* FOOTER */
+
+  .footer{
+    position: absolute;
+    left: 0;
+    bottom: -100px;
+    padding-bottom: 20px;
+    padding-top: 100px;
+  }
+
+  .footer p{
+    font-size: 24px;
+    font-family: fantasy;
+    color: lightgray;
+    text-align: center;
+  }
