@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html{
+    background-color: #075985;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    background-color: #1e1b4b;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    box-shadow: 6px 6px 6px 2px #0284c7;
+}
+
+.btnContainer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    padding: 20px;
+    gap: 1px;
+}
+
+.screen{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    font-size: 50px;
+    text-align: end;
+    color: #075985;
+}
+
+#clear{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 200px;
+}
+
+#delete{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    width: 200px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.btnContainer button{
+    width: 100px;
+    height: 100px;
+    font-family: fantasy;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.title{
+    position: absolute;
+    top: 0;
+}
+.title h1{
+    font-family: fantasy;
+    font-size: 50px;
+    color: #0284c7;
+    text-decoration: underline;
+}
+
