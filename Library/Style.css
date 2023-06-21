@@ -1,0 +1,115 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/*HEADER*/
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #94a3b8;
+    border-bottom-style: solid;
+    border-bottom-color: #64748b;
+}
+
+.headerTitle h1{
+    padding-left: 20px;
+}
+
+.headerBtn{
+    padding-right: 20px;
+}
+
+.headerBtn button{
+    width: 60px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.headerBtn button img{
+    width: 30px;
+}
+
+/*BTN HEADER*/
+
+.btnAdd{
+    padding-right: 40px;
+}
+
+.btnAdd button{
+    background-color: #fde047;
+    font-size: 30px;
+    width: 50px;
+    border-radius: 50px;
+    border-color: #fde047;
+}
+
+.btnAdd button:hover{
+    background-color: #f59e0b;
+    cursor: pointer;
+    color: white;
+}
+
+
+/*Modal*/
+
+.modalContent{
+    background-color: #64748b;
+}
+
+.modalContent button{
+    background-color: #fde047;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: fantasy;
+    border-color: #fde047;
+}
+
+.modalContent button:hover{
+    cursor: pointer;
+    background-color: #f59e0b;
+    color: white;
+    border-color: #f59e0b;
+}
+
+#checkbox{
+    cursor: pointer;
+}
+
+.modal label{
+    font-family: fantasy;
+    color: white;
+}
+
+.modal h3{
+    color: white;
+    font-family: fantasy;
+}
+
+/*FOOTER*/
+
+
+.copyright{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+}
+
+.copyright p{
+    font-size: 20px;
+}
+
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
